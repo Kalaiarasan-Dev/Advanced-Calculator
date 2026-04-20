@@ -33,7 +33,7 @@ A feature-rich, beautifully designed calculator web application with modern UI, 
 
 ## 🖥️ Live Demo
 
-Open `calculator.html` in any modern web browser - no installation required!
+Open (https://kalaiarasan-dev.github.io/Advanced-Calculator/) in any modern web browser - no installation required!
 
 ---
 
