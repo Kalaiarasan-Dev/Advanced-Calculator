@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Glassmorphism Calculator | Modern UI Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+        <div class="calculator-glass">
+            <!-- Display Screen -->
+            <div class="display">
+                <div class="previous-operand" id="previousOperand"></div>
+                <div class="current-operand" id="currentOperand">0</div>
+            </div>
+
+            <!-- Calculator Buttons -->
+            <div class="buttons">
+                <!-- Row 1 - Special Functions -->
+                <button class="btn btn-special" data-action="clear">
+                    <span>AC</span>
+                </button>
+                <button class="btn btn-special" data-action="delete">
+                    <span>⌫</span>
+                </button>
+                <button class="btn btn-special" data-operator="%">
+                    <span>%</span>
+                </button>
+                <button class="btn btn-operator" data-operator="/">
+                    <span>÷</span>
+                </button>
+
+                <!-- Row 2 -->
+                <button class="btn btn-number" data-number="7">
+                    <span>7</span>
+                </button>
+                <button class="btn btn-number" data-number="8">
+                    <span>8</span>
+                </button>
+                <button class="btn btn-number" data-number="9">
+                    <span>9</span>
+                </button>
+                <button class="btn btn-operator" data-operator="*">
+                    <span>×</span>
+                </button>
+
+                <!-- Row 3 -->
+                <button class="btn btn-number" data-number="4">
+                    <span>4</span>
+                </button>
+                <button class="btn btn-number" data-number="5">
+                    <span>5</span>
+                </button>
+                <button class="btn btn-number" data-number="6">
+                    <span>6</span>
+                </button>
+                <button class="btn btn-operator" data-operator="-">
+                    <span>-</span>
+                </button>
+
+                <!-- Row 4 -->
+                <button class="btn btn-number" data-number="1">
+                    <span>1</span>
+                </button>
+                <button class="btn btn-number" data-number="2">
+                    <span>2</span>
+                </button>
+                <button class="btn btn-number" data-number="3">
+                    <span>3</span>
+                </button>
+                <button class="btn btn-operator" data-operator="+">
+                    <span>+</span>
+                </button>
+
+                <!-- Row 5 -->
+                <button class="btn btn-number zero" data-number="0">
+                    <span>0</span>
+                </button>
+                <button class="btn btn-number" data-number=".">
+                    <span>.</span>
+                </button>
+                <button class="btn btn-equals" data-action="equals">
+                    <span>=</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Keyboard Support Hint -->
+        <div class="keyboard-hint">
+            <div class="hint-content">
+                <span class="hint-icon">⌨️</span>
+                <span>Keyboard Support: 0-9, ., +, -, *, /, %, Enter, Backspace, Escape</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
