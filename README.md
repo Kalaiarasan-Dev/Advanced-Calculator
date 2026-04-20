@@ -209,7 +209,7 @@ Custom themes
 📄 License
 This project is MIT Licensed - feel free to use, modify, and distribute!
 
-text
+
 MIT License
 
 Copyright (c) 2026 [Kalai Arasan]
@@ -226,10 +226,10 @@ Gradient design inspired by modern UI trends
 📞 Contact
 Kalaiarasan
 
-GitHub: KKalaiarasan-Dev
+GitHub: Kalaiarasan-Dev
 
 
-Email: your.email@example.com
+Email: kalaigurusamy8@gmail.com
 
 ⭐ Show Your Support
 If you found this project helpful, please give it a ⭐ on GitHub!
